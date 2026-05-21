@@ -1,0 +1,37 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+.env/
+serp-intelligence/backend/venv/
+serp-intelligence/backend/.venv/
+
+# Node packages (Frontend dependencies)
+node_modules/
+serp-intelligence/frontend/node_modules/
+
+# Python cache & compiled files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (sensitive data)
+.env
+*.env
+serp-intelligence/backend/.env
+serp-intelligence/frontend/.env
+serp-intelligence/frontend/.env.local
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS temporary files
+.DS_Store
+Thumbs.db
